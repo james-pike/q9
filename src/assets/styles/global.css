@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --color-hue: 220; /* Dynamic base hue */
+    --color-hue: var(--color-hue, 220); /* Default to 220 if no theme is set */
     --color-lightness-adjust: 0%; /* Default lightness (light mode) */
     
 
