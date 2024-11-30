@@ -18,6 +18,7 @@ import Pricing from "~/components/widgets/Pricing";
 import Test2 from "~/components/widgets/Test2";
 import HeroGrid from "~/components/widgets/HeroGrid";
 import Grid2 from "~/components/widgets/grid2";
+import Grid3 from "~/components/widgets/grid3";
 
 
 export default component$(() => {
@@ -29,6 +30,11 @@ export default component$(() => {
     <>
     <div class={themeSig.value}>
 
+<Grid3 highlight="Etchy Sketchy 0.1.0"
+  title="Level up your UX Design Skills"
+  subtitle="Master the art of analog design with the Etch A Sketch 2.0. Say goodbye to digital brushes and hello to endless frustration."
+  items={[]}
+  />
       <HeroGrid />
       
     {/* <Hero1  highlight="Contact Us"
